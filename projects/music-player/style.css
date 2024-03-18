@@ -16,6 +16,11 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+h1 {
+  color: white;
+  /* text-transform: uppercase; */
+  letter-spacing: 5px;
+}
 .music-container {
   background-color: white;
   border-radius: 15px;
