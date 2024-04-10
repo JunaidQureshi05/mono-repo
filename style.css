@@ -1,71 +1,63 @@
+/* Body Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #efd5c3; /* Light blue background */
 }
 
+/* Container Styles */
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
-  padding: 20px;
+  gap: 30px; /* Increased gap between project boxes */
+  padding: 30px; /* Increased padding */
 }
 
+/* Project Box Styles */
 .project {
-  width: 250px;
-  height: 250px;
-  border-radius: 10px;
+  width: 300px; /* Slightly increased box size */
+  height: 300px; /* Slightly increased box size */
+  /* border-radius: 15px; Rounded corners */
   overflow: hidden;
   position: relative;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Subtle shadow */
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  /* Smooth hover effect */
 }
 
+/* Project Image Styles */
 .project .image {
-  width: 100%;
+  flex: 1;
+  padding: 8px 8px 0;
+}
+.project .image img {
+  display: block;
+  object-fit: cover;
   height: 100%;
-  background-size: cover;
-  background-position: center;
-}
-
-.project .content {
-  position: absolute;
-  bottom: 0;
-  left: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  box-sizing: border-box;
 }
 
+/* Project Content Styles */
+
+/* Title Styles */
 .project .title {
-  font-size: 16px;
+  color: white;
+  padding: 8px;
   font-weight: bold;
-  color: #fff;
-  margin-bottom: 5px;
 }
 
-.project .btn {
-  display: inline-block;
-  padding: 5px 10px;
-  background-color: #4caf50;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.project .btn:hover {
-  background-color: #45a049;
-}
-
+/* Footer Styles */
 footer {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 8px 0;
-  position: sticky;
+  padding: 20px 0; /* Increased padding */
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
