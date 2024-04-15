@@ -81,4 +81,4 @@ function createBox(project) {
 
 projects.forEach((project) => container.appendChild(createBox(project)));
 
-footerText.innerText = `All rights reserved - Juned Ahmad ${new Date().getFullYear()}`;
+footerText.innerText = `All rights reserved - Juned Awewewehmad ${new Date().getFullYear()}`;
