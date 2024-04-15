@@ -34,6 +34,21 @@ let projects = [
   { name: "Meal Finder", link: "meal-finder", image: "18.webp" },
   { name: "Music Player", link: "music-player", image: "19.webp" },
   { name: "Expense Tracker", link: "expense-tracker", image: "20.webp" },
+  { name: "Movie App", link: "movie-app", image: "20.webp" },
+  { name: "Code Pen", link: "code-pen-clone", image: "20.webp" },
+  { name: "Book  Keeper", link: "book-keeper", image: "20.webp" },
+  { name: "Calculator", link: "calculator", image: "20.webp" },
+  { name: "Kanban Board", link: "drag-n-drop", image: "20.webp" },
+  { name: "Form Validation", link: "form-validation", image: "20.webp" },
+  { name: "Infinity Scroll", link: "infinity-scroll", image: "20.webp" },
+  { name: "Joke Teller", link: "joke-teller", image: "20.webp" },
+  { name: "Light Dark Mode", link: "light-dark-mode", image: "20.webp" },
+  { name: "Navigation Nation", link: "navigation-nation", image: "20.webp" },
+  { name: "Paint", link: "paint", image: "20.webp" },
+  { name: "Picture in Picture", link: "picture-in-picture", image: "20.webp" },
+  { name: "Quote Generator", link: "quote-generator", image: "20.webp" },
+  { name: "Song Player", link: "song-player", image: "20.webp" },
+  { name: "Spock Rock Game", link: "spock-rock-game", image: "20.webp" },
 ];
 
 function createBox(project) {
