@@ -59,7 +59,8 @@ function createBox(project) {
   box.style.cursor = "pointer"; // Change cursor to pointer to indicate it's clickable
   box.addEventListener("click", () => {
     // Handle navigation when the box is clicked
-    window.location.href = `./projects/${project.link}`;
+
+    window.open(`./projects/${project.link}`, "_blank");
   });
 
   let image = document.createElement("div");

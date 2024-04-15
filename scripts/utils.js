@@ -1,56 +1,8 @@
-const randomHexColors = [
-  "#F94144",
-  "#F3722C",
-  "#F8961E",
-  "#F9844A",
-  "#F9C74F",
-  "#90BE6D",
-  "#43AA8B",
-  "#4D908E",
-  "#577590",
-  "#277DA1",
-  "#9A031E",
-  "#B06C49",
-  "#B83B5E",
-  "#6D6875",
-  "#D9F0FF",
-  "#90A8C3",
-  "#95D5B2",
-  "#D9DD92",
-  "#E9D985",
-  "#7C7C78",
-  "#454545",
-  "#363537",
-  "#E08DAC",
-  "#B83B5E",
-  "#6A0572",
-  "#2A0845",
-  "#D8F1A0",
-  "#B4DEBE",
-  "#96B7D4",
-  "#F2D7EE",
-  "#D3BCC0",
-  "#775144",
-  "#559CAD",
-  "#4F7CAC",
-  "#1E88E5",
-  "#2E4057",
-  "#F15BB5",
-  "#FEE440",
-  "#00BBF9",
-  "#00A6ED",
-  "#87BBA2",
-  "#598234",
-  "#3A4A42",
-  "#808080",
-  "#333333",
-  "#E63946",
-  "#F1FAEE",
-  "#A8DADC",
-  "#457B9D",
-  "#1D3557",
-];
-
 const getRandomColor = () => {
-  return randomHexColors[Math.floor(Math.random() * randomHexColors.length)];
+  const randomChannel = () => Math.floor(Math.random() * 256); // Generates a random number between 0 and 255
+  const red = randomChannel();
+  const green = randomChannel();
+  const blue = randomChannel();
+  const alpha = Math.random(); // Generates a random alpha value between 0 and 1
+  return `rgba(${red}, ${green}, ${blue}, ${alpha})`;
 };
