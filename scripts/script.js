@@ -44,7 +44,7 @@ let projects = [
   { name: "Joke Teller", link: "joke-teller", image: "28.webp" },
   { name: "Light Dark Mode", link: "light-dark-mode", image: "29.webp" },
   { name: "Navigation Nation", link: "animated-navigation", image: "30.webp" },
-  { name: "Paint", link: "paint", image: "31.webp" },
+  { name: "Paint", link: "paint-clone", image: "31.webp" },
   { name: "Picture in Picture", link: "picture-in-picture", image: "32.webp" },
   { name: "Quote Generator", link: "quote-generator", image: "33.webp" },
   { name: "Song Player", link: "song-player", image: "34.webp" },
